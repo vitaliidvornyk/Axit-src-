@@ -1,5 +1,5 @@
 {
-  "name": "globalopt_project",
+  "name": "prengi_project",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,14 +7,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vitaliidvornyk/Globalopt.git"
+    "url": "git+https://github.com/vitaliidvornyk/Prengi.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/vitaliidvornyk/Globalopt/issues"
+    "url": "https://github.com/vitaliidvornyk/Prengi/issues"
   },
-  "homepage": "https://github.com/vitaliidvornyk/Globalopt#readme",
+  "homepage": "https://github.com/vitaliidvornyk/Prengi#readme",
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
