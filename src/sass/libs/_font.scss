@@ -1,47 +1,47 @@
 @font-face {
-	font-family: 'Roboto';
+	font-family: 'OpenSans';
 	font-display: swap;
-	src: local('Roboto-Thin'),
-		url('../fonts/Roboto-Thin.woff2') format('woff2'),
-		url('../fonts/Roboto-Thin.woff') format('wooff');
-	font-weight: 100;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Roboto';
-	font-display: swap;
-	src: local('Roboto-Ligth'),
-		url('../fonts/Roboto-Ligth.woff2') format('woff2'),
-		url('../fonts/Roboto-Ligth.woff') format('wooff');
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Roboto';
-	font-display: swap;
-	src: local('Roboto-Regular'),
-		url('../fonts/Roboto-Regular.woff2') format('woff2'),
-		url('../fonts/Roboto-Regular.woff') format('wooff');
+	src: local('OpenSans-Regular'),
+		url('../../fonts/OpenSans-Regular.woff2') format('woff2'),
+		url('../../fonts/OpenSans-Regular.woff') format('wooff');
 	font-weight: 400;
 	font-style: normal;
 }
+
 @font-face {
-	font-family: 'Roboto';
+	font-family: 'OpenSans';
 	font-display: swap;
-	src: local('Roboto-Bold'),
-		url('../fonts/Roboto-Bold.woff2') format('woff2'),
-		url('../fonts/Roboto-Bold.woff') format('wooff');
+	src: local('OpenSans-SemiBold'),
+		url('../../fonts/OpenSans-SemiBold.woff2') format('woff2'),
+		url('../../fonts/OpenSans-SemiBold.woff') format('wooff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'OpenSans';
+	font-display: swap;
+	src: local('OpenSans-Bold'),
+		url('../../fonts/OpenSans-Bold.woff2') format('woff2'),
+		url('../../fonts/OpenSans-Bold.woff') format('wooff');
 	font-weight: 700;
 	font-style: normal;
 }
 @font-face {
-	font-family: 'Roboto';
+	font-family: 'Raleway';
 	font-display: swap;
-	src: local('Roboto-Black'),
-		url('../fonts/Roboto-Black.woff2') format('woff2'),
-		url('../fonts/Roboto-Black.woff') format('wooff');
-	font-weight: 900;
+	src: local('Raleway-Light'),
+		url('../../fonts/Raleway-Light.woff2') format('woff2'),
+		url('../../fonts/Raleway-Light.woff') format('wooff');
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Raleway';
+	font-display: swap;
+	src: local('Raleway-Regular'),
+		url('../../fonts/Raleway-Regular.woff2') format('woff2'),
+		url('../../fonts/Raleway-Regular.woff') format('wooff');
+	font-weight: 400;
 	font-style: normal;
 }

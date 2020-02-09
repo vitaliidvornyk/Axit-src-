@@ -3,7 +3,8 @@
 @import 'libs/font';
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', 'Raleway', sans-serif;
 }
 
-@import 'blocks/adress';
+@import 'blocks/navbar';
+@import 'blocks/header';
