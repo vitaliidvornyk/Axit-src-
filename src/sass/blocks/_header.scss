@@ -42,7 +42,12 @@
         margin-top: 44px;
         width: 135px;
         height: 42px;
-        border: none;
+        border: 1px solid white;
+        background: none;
+        font-family: OpenSans;
+        font-size: 15px;
+        font-weight: 600;
+        color: #ffffff;
     }
     &__wrapper-form {
         margin-top: 30px;
