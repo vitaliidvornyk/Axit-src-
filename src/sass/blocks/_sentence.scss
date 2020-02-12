@@ -1,0 +1,80 @@
+.sentence {
+    min-height: 595px;
+    padding: 147px 0 114px 0;
+    &__wrapper {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    &__tabs {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+    }
+    &__tab {
+        width: 112px;
+        height: 112px;
+        line-height: 112px;
+        background-color: #333333;
+        font-family: OpenSans;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+        color: #ffffff;
+        border: 1px solid white;
+        cursor: pointer;
+        transition: 0.5s all;
+        &:hover {
+            box-shadow: 0 0  20px yellow;
+            border: none;
+        }
+        &_active {
+            background-color: #ff8b38;
+        }
+    }
+    &__content {
+        display: none;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 50px;
+        &_active {
+            display: flex;
+        }
+    }
+    &__wrapper-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 50px;
+        &_padleft {
+            padding-right: 0;
+            padding-left: 50px;
+        }
+    }
+    &__descr2tab {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    &__logo {
+        margin-right: 30px;
+    }
+    &__subdescr {
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.43;
+        text-align: left;
+        color: #86878b;
+        span {
+            font-family: OpenSans;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+            color: #212121;
+        }
+    }
+}

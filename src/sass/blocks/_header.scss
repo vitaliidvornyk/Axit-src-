@@ -12,43 +12,6 @@
         flex-direction: column;
         align-items: flex-start;
     }
-    &__title {
-        margin-top: 33px;
-        font-family: Raleway;
-        font-size: 36px;
-        font-weight: 400;
-        text-align: left;
-        color: #ffffff;
-    }
-    &__line::after {
-        content: '';
-        display: block;
-        margin-top: 36px;
-        width: 74px;
-        height: 3px;
-        background-color: white;
-    }
-    &__subtitle {
-        margin-top: 30px;
-        opacity: 0.8;
-        font-family: Raleway;
-        font-size: 16px;
-        font-weight: 300;
-        text-align: left;
-        line-height: 1.44;
-        color: rgba(255, 255, 255, 0.8);
-    }
-    &__button {
-        margin-top: 44px;
-        width: 135px;
-        height: 42px;
-        border: 1px solid white;
-        background: none;
-        font-family: OpenSans;
-        font-size: 15px;
-        font-weight: 600;
-        color: #ffffff;
-    }
     &__wrapper-form {
         margin-top: 30px;
     }
@@ -80,16 +43,5 @@
         span {
             color: #ff8b38;
         }
-    }
-    &__form-btn {
-        width: 360px;
-        height: 54px;
-        margin-top: 49px;
-        font-family: OpenSans;
-        font-size: 15px;
-        font-weight: 600;
-        color: #ffffff;
-        background-color: #ff9b51;
-        border: none;
     }
 }

@@ -1,0 +1,25 @@
+.button {
+    margin-top: 44px;
+    width: 135px;
+    height: 42px;
+    border: 1px solid white;
+    background: none;
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 600;
+    color: #ffffff;
+    &_dwn {
+        background-color: #ff8b38;
+    }
+    &_form {
+        width: 360px;
+        height: 54px;
+        margin-top: 49px;
+        font-family: OpenSans;
+        font-size: 15px;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #ff9b51;
+        border: none;
+    }
+}

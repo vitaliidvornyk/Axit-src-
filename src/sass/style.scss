@@ -6,5 +6,9 @@
     font-family: 'Open Sans', 'Raleway', sans-serif;
 }
 
+@import 'blocks/title';
+@import 'blocks/buttons';
 @import 'blocks/navbar';
 @import 'blocks/header';
+@import 'blocks/social';
+@import 'blocks/sentence';
