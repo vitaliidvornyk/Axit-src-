@@ -18,6 +18,13 @@
         text-align: center;
         color: #212121;
     }
+    &_customers {
+        font-family: Raleway;
+        font-size: 36px;
+        font-weight: 400;
+        text-align: center;
+        color: #212121;
+    }
 }
 .line::before {
     content: '';
@@ -48,6 +55,13 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 1.43;
+        text-align: center;
+        color: #86878b;
+    }
+    &_customers {
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: 400;
         text-align: center;
         color: #86878b;
     }
