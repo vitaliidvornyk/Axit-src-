@@ -25,6 +25,13 @@
         text-align: center;
         color: #212121;
     }
+    &_contact {
+        font-family: Raleway;
+        font-size: 36px;
+        font-weight: 400;
+        text-align: center;
+        color: #212121;
+    }
 }
 .line::before {
     content: '';
@@ -59,6 +66,13 @@
         color: #86878b;
     }
     &_customers {
+        font-family: OpenSans;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: #86878b;
+    }
+    &_contact {
         font-family: OpenSans;
         font-size: 14px;
         font-weight: 400;
