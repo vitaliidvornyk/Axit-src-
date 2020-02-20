@@ -6,6 +6,7 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
     }
     &__promotext {
         display: flex;
@@ -40,17 +41,17 @@
     }    
     &__wrapper-form {
         margin-top: 30px;
+        flex: 0 0 32%;
     }
     &__form {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
-        width: 360px;
         background-color: white;
         input {
             margin-top: 36px;
-            width: 285px;
+            width: 80%;
             height: 31px;
             border: none;
             border-bottom: 1px solid #d6d6d6;

@@ -1,0 +1,177 @@
+@media (max-width: 1200px) {
+
+    .contact {
+        &__input-wrapper {
+            margin-right: 30px;
+        }
+    }
+}
+
+@media (max-width: 991px) {
+
+    .header {
+        &__form {
+            input {
+                margin-top: 15px;
+                height: 24px;
+                &:nth-child(3) {
+                    margin-top: 15px;
+                }
+            }
+        }
+        &__form-title {
+            font-size: 15px;
+            padding: 11px 0 11px 0;
+        }
+        &__title {
+            margin-top: 20px;
+            font-size: 27px;
+        }
+        &__line:before {
+            margin-top: 25px;            
+        }
+        &__subtitle {
+            margin-top: 24px;
+            font-size: 14px;
+        }
+    }
+
+    .button {
+        margin-top: 20px;
+        &_form {
+            margin-top: 28px;
+        }
+    }
+
+    .social {
+        &__descr {
+            font-size: 12px;
+            span {
+                font-size: 16px;
+            }
+        }
+        &__icon {
+            div {
+                max-width: 35px;
+            }
+        }
+    }
+
+    .sentence {
+        min-height: 300px;
+        padding: 68px 0 87px 0;
+        &__tab {
+            line-height: 80px;
+        }
+        .title {
+            font-size: 18px;
+        }
+        .subtitle {
+            margin-top: 17px;
+            font-size: 12px;
+            line-height: 17px;
+        }
+        .button {
+            &_dwn {
+                margin-top: 12px;
+            }
+        }
+        .line::before {
+            margin-top: 12px;
+        }
+        &__descr2tab, &__descr2tab:last-child {
+            margin-top: 10px;
+        }
+        &__logo {
+            margin-right: 16px;
+        }
+        &__subdescr {
+            font-size: 12px;
+        }
+    }
+
+    .awesome {
+        min-height: 490px;
+        padding: 55px 0 65px 0;
+        .title {
+            &_awesome {
+                font-size: 30px;
+            }
+        }
+        &__line::before {
+            margin: 10px auto;
+        }
+        .subtitle {
+            &_awesome {
+                margin-top: 15px;
+            }
+        }
+        &__wrapper {
+            margin-top: 43px;
+        }
+        &__img {
+            width: 30%;
+        }
+        &__title {
+            margin-top: 19px;
+        }
+        &__subtitle {
+            margin-top: 10px;
+            font-size: 13px;
+        }
+    }
+
+    .pricing {
+        min-height: 700px;
+        padding: 40px 0 60px 0;
+        .title {
+            &_pricing {
+                font-size: 30px;
+            }
+        }
+        &__line::before {
+            margin: 10px auto;
+        }
+        .subtitle {
+            &_pricing {
+                margin-top: 15px;
+            }
+        }
+        &__wrapper {
+            margin-top: 45px;
+        }
+        &__title {
+            font-size: 18px;
+        }
+        &__price {
+            font-size: 80px;
+            line-height: 82px;
+        }
+        &__items {
+            :nth-child(n+5) {
+                font-size: 12px;
+                line-height: 38px;
+            }
+        }
+    }
+
+    .customers {
+        padding: 50px 0 101px 0;
+        .title {
+            &_customers {
+                font-size: 28px;
+            }
+        }
+        &__line::before {
+            margin: 10px auto;
+        }
+        .subtitle {
+            &_customers {
+                margin-top: 15px;
+            }
+        }
+        &__wrapper {
+            margin-top: 35px;
+        }
+    }
+}
