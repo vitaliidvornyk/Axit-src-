@@ -1,11 +1,21 @@
 .social {
     min-height: 105px;
     padding: 22px 0 22px 0;
-    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px -2px lightgray inset;
+    &_bottom {
+        min-height: 100px;
+        padding: 38px 0 15px 0;
+        background-color: black;
+    }
     &__wrapper {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        &_bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
     }
     &__descr {
         font-family: OpenSans;
@@ -14,6 +24,9 @@
         line-height: 1.43;
         text-align: left;
         color: #86878b;
+        &_bottom {
+            margin-top: 15px;
+        }
         span {
             font-family: OpenSans;
             font-size: 20px;

@@ -1,3 +1,5 @@
+// Tabs
+
 (function($) {
     $(function() {     
       $('ul.sentence__tabs').on('click', 'li:not(.sentence__tab_active)', function() {
@@ -7,3 +9,9 @@
       });     
     });
 })(jQuery);
+
+// Scroll up
+
+$(window).on( 'load', function() {
+  $('html, body').animate({scrollTop : 0});
+});
