@@ -1,14 +1,25 @@
 .button {
-    margin-top: 44px;
-    width: 135px;
-    height: 42px;
-    border: 1px solid white;
-    background: none;
-    font-family: OpenSans;
-    font-size: 15px;
-    font-weight: 600;
-    color: #ffffff;
+    &_header {
+        margin-top: 44px;
+        width: 135px;
+        height: 42px;
+        border: 1px solid white;
+        background: none;
+        font-family: OpenSans;
+        font-size: 15px;
+        font-weight: 600;
+        color: #ffffff;
+    }
     &_dwn {
+        margin-top: 51px;
+        width: 121px;
+        height: 46px;
+        font-family: OpenSans;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        font-weight: 600;
+        color: #ffffff;
         background-color: #ff8b38;
     }
     &_form {
@@ -24,10 +35,25 @@
     }
     &_design {
         margin-top: 33px;
+        width: 135px;
+        height: 42px;
+        border: 1px solid white;
+        background: none;
+        font-family: OpenSans;
+        font-size: 15px;
+        font-weight: 600;
+        color: #ffffff;
     }
     &_contact {
+        margin-top: 43px;
         width: 148px;
         height: 46px;
+        font-family: OpenSans;
+        font-size: 15px;
+        border: none;
+        border-radius: 5px;
+        font-weight: 600;
+        color: #ffffff;
         background-color: #ff8b38;
     }
 }

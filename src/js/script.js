@@ -12,6 +12,6 @@
 
 // Scroll up
 
-$(window).on( 'load', function() {
-  $('html, body').animate({scrollTop : 0});
-});
+// $(window).on( 'load', function() {
+//   $('html, body').animate({scrollTop : 0});
+// });
