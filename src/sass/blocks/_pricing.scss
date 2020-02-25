@@ -37,6 +37,11 @@
         :last-child {
             border-bottom: 0;
         }
+        &_animated:hover {
+            animation-name: pricing;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
     }
     &__title {
         background-color: black;

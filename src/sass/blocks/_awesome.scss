@@ -21,6 +21,11 @@
     }
     &__items {
         margin-right: 32px;
+        &_animated:hover {
+            animation-name: design;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+        }
     }
     &__img {
         display: block;

@@ -70,7 +70,7 @@
         min-height: 300px;
         padding: 68px 0 87px 0;
         &__tab {
-            line-height: 80px;
+            line-height: 75px;
         }
         .title {
             font-size: 18px;
@@ -258,7 +258,7 @@
             flex: 0 0 87%;
         }
         &__tab {
-            line-height: 58px;
+            line-height: 50px;
             font-size: 11px;
         }
         .title {
@@ -270,14 +270,14 @@
             line-height: 12px;
         }
         .line::before {
-            margin-top: 0;
+            margin-top: 7px;
             height: 2px;
         }
         &__subdescr {
             font-size: 8px;
         }
         &__logo {
-            width: 12%;
+            width: 8%;
             margin-right: 10px;
         }
         &__descr2tab, &__descr2tab:last-child {
@@ -601,9 +601,16 @@
         }
         &__pic {
             margin-top: 20px;
+            padding: 0;
         }
         .title {
             margin-top: 14px;
+        }
+        &__descr2tab {
+            margin-top: 7px;
+            &:last-child {
+                margin-top: 7px;
+            }
         }
     }
 
@@ -614,7 +621,10 @@
             align-items: center;
         }
         &__items {
-            margin: 10px auto 0;
+            margin: 15px auto 0;
+            &:nth-child(1) {
+                margin: 0 auto;
+            }
         }
         &__title {
             font-size: 25px;
