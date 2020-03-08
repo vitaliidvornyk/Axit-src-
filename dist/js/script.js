@@ -1,3 +1,4 @@
+
 // Tabs
 
 $(document).ready(function () {
@@ -36,7 +37,7 @@ $(document).ready(function () {
 	// Page up
 
 	$(window).scroll(function () {
-		if ($(this).scrollTop() > 1600) {
+		if ($(this).scrollTop() > 600) {
 			$('.pageup').fadeIn();
 		} else {
 			$('.pageup').fadeOut();
@@ -51,5 +52,41 @@ $(document).ready(function () {
 		});
 	});
 
-});
+	$('#header-form form').validate({
+		rules: {
+			name: "required",
+			email: {
+				required: true,
+				email: true,
+			},
+			password: "required",
+		},
+		messages: {
+			name: "Пожалуйста, введите свое имя",
+			email: {
+				required: "Введите свою почту",
+				email: "Неправильно введет адресс почты"
+			},
+			password: "Введите пароль",
+		},
+	});
 
+	$('#contact-form').validate({
+		rules: {
+			name: "required",
+			email: {
+				required: true,
+				email: true,
+			},
+		},
+		messages: {
+			name: "Пожалуйста, введите свое имя",
+			email: {
+				required: "Введите свою почту",
+				email: "Неправильно введет адресс почты"
+			},
+		},
+	});
+
+
+});

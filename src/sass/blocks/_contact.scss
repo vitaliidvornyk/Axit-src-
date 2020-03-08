@@ -16,6 +16,14 @@
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
+        .error {
+            border: 1px solid red;
+        }
+        label.error {
+            text-align: center;
+            border: none;
+            font-size: 12px;
+        }
     }
     &__input-wrapper {
         display: flex;
@@ -26,13 +34,15 @@
         margin-right: 60px;
         input {
             font-family: OpenSans;
-            font-size: 14px;
+            padding-left: 10px;
+            font-size: 12px;
             font-weight: 400;
             line-height: normal;
             text-align: left;
             color: #bdbdbd;
             border: none;
             border-bottom: 1px solid #d6d6d6;
+            border-radius: 10px;
         }
     }
     &__text {
